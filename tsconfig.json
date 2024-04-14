@@ -3,9 +3,13 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "target": "es2018",
-    "lib": ["es2020"],
+    "lib": [
+      "es2020"
+    ],
     "outDir": "build/node",
-    "rootDirs": ["./src"],
+    "rootDirs": [
+      "./src"
+    ],
     "strict": true,
     "sourceMap": true,
     "inlineSources": true,
@@ -15,5 +19,11 @@
     "emitDecoratorMetadata": true,
     "forceConsistentCasingInFileNames": true
   },
-  "exclude": ["build", "node_modules", "sample", "**/*.spec.ts", "test/**"]
+  "exclude": [
+    "build",
+    "node_modules",
+    "sample",
+    "**/*.spec.ts",
+    "test/**"
+  ]
 }
